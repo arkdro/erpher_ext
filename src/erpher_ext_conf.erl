@@ -81,7 +81,7 @@ get_config(Src) ->
 
 fill_config(List, Src) ->
     Src#ext{
-      pid = proplists:get_value(pid, List, ?PID),
+      pid_file = proplists:get_value(pid_file, List, ?PID),
       local_config = proplists:get_value(local_config, List),
       debug = proplists:get_value(debug, List, []),
       log = proplists:get_value(log, List, ?LOG)
