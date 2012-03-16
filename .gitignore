@@ -1,0 +1,14 @@
+*~
+\#*\#
+*.beam
+doc/html
+ebin/
+*.log
+log/
+*.plt
+.project
+.settings/*
+*.sublime-*
+*.swp
+tags
+TAGS

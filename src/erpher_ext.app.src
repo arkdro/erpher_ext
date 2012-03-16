@@ -1,0 +1,17 @@
+{application, erpher_ext, [
+    {description, "erpher extra functions"},
+    {id, "erpher_ext"},
+    {vsn, "0.0.1"},
+    {modules, [
+        erpher_ext_app,
+        erpher_ext,
+        erpher_ext_sup
+    ]},
+    {registered, [
+        erpher_ext,
+        erpher_ext_supervisor
+    ]},
+    {mod, {erpher_ext_app,[]}},
+    {applications, [kernel, stdlib]}
+]}.
+
