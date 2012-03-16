@@ -1,0 +1,5 @@
+app for the following:
+- pid creation
+- logs creation, rotating
+- local config loading
+- config reloading
